@@ -18,8 +18,7 @@ for(i in 1:1000) {
 		#Web tree taxonomy
 		backbone_taxonomy <- read.csv("./Data/web_backbone_taxonomy.csv", row.names=NULL)
 		#Upload the backbone tree
-		backbone_tree <- read.tree(file = "C://Users/margo/Downloads/actinopt_12k_treePL.tre.xz")
-		#Bruno_backbone.tree <- read.tree(file = "./Imges/updated_backbone3.tre")
+		backbone_tree <- read.tree(file = "./actinopt_12k_treePL.tre.xz")
 	#2. Call libraries()
 		library(ape)
 		library(phytools)
